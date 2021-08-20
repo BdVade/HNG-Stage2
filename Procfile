@@ -1,0 +1,1 @@
+web: gunicorn HNGi8Stage2.wsgi --log-file -
