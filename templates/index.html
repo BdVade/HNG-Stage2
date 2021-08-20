@@ -181,8 +181,8 @@
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Interests</h2>
-                    <p>Apart from being a web developer, I enjoy Reading. Mostly Wuxia, Some fantasy too.</p>
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, games, and I spend a large amount of my free time exploring the latest technology advancements in the web development world.</p>
+                    <p>Apart from being a web developer, I enjoy Reading. Mostly Wuxia, Some fantasy as well.</p>
+                    <p class="mb-0">I also follow a number of sci-fi and fantasy genre movies and television shows, games, and I spend a large amount of my free time exploring the latest technology advancements in the web development world.</p>
                 </div>
             </section>
             <hr class="m-0" />
@@ -190,6 +190,10 @@
             <section class="resume-section" id="awards">
                 <div class="resume-section-content">
                     <form id="contact-form" method="post" action="." role="form">
+                        {% csrf_token %}
+
+
+
 
                         <div class="messages"></div>
                     
@@ -243,6 +247,11 @@
                         </div>
                     
                     </form>
+                    <div>
+                        <p>I'm currently participating in the Zuri internship. Check them out by clicking on the logo below</p>
+                        <a href="https://internship.zuri.team/"><img src="https://internship.zuri.team/static/media/logo.36d2d48a.svg" alt=""></a>
+                    </div>
+                    
                 </div>
             </section>
         </div>

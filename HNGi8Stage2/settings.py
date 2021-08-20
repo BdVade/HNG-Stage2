@@ -136,12 +136,12 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
-EMAIL_HOST = 'mail.privateemail.com'
-EMAIL_HOST_USER = 'no-reply@gaxut.com'
-EMAIL_HOST_PASSWORD = 'gaxut003'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'victoraderibigbe04@gmail.com'
+EMAIL_HOST_PASSWORD = 'Adegbemiga'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
-DEFAULT_FROM_EMAIL = 'no-reply@gaxut.com'
+DEFAULT_FROM_EMAIL = 'victoraderibigbe04@gmail.com'
 
 
 django_heroku.settings(locals())
