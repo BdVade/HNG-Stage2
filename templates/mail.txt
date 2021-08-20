@@ -1,0 +1,8 @@
+Hello Victor Kuti,
+
+My name is {{ first_name|safe }} {{ last_name|safe }}.
+
+My email is : {{email|safe }}
+
+Message :
+{{ message|safe }}
